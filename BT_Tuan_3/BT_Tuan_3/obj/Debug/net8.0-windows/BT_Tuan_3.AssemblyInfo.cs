@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BT_Tuan_3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b75c0281fe354aa3f9744219bd662c7130ea3e8c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8632a41414afc5d1aa076c595933ae0ec850245")]
 [assembly: System.Reflection.AssemblyProductAttribute("BT_Tuan_3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BT_Tuan_3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

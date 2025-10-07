@@ -58,7 +58,8 @@
               "RelativeToolTip": "BT_Tuan_3\\SignIn.Designer.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAWwEwAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T08:12:16.806Z"
+              "WhenOpened": "2025-10-07T08:12:16.806Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -104,7 +105,7 @@
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignIn.cs",
               "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
               "RelativeToolTip": "BT_Tuan_3\\SignIn.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAnwFAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAuwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T15:58:43.202Z",
               "EditorCaption": ""
@@ -118,7 +119,8 @@
               "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs [Design]",
               "RelativeToolTip": "BT_Tuan_3\\SignIn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T15:57:37.968Z"
+              "WhenOpened": "2025-10-05T15:57:37.968Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

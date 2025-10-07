@@ -97,24 +97,27 @@ namespace BT_Tuan_3
             }
         }
 
-        private void tb_psw_TextChanged(object sender, EventArgs e)
-        {
-
-
-        }
 
         private void btn_signin_Click(object sender, EventArgs e)
         {
+            string username = tb_username.Text;
+            string password = tb_psw.Text;
             if (!string.IsNullOrEmpty(tb_username.Text) && tb_username.Text.Length > 0 && tb_username.Text.Length < 8)
             {
                 MessageBox.Show("Tên đăng nhập phải có ít nhất 8 ký tự!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 tb_username.Focus();
+                return;
             }
-        }
 
-        private void tb_username_TextChanged(object sender, EventArgs e)
-        {
 
+            if(!string.IsNullOrEmpty(tb_psw.Text) && tb_psw.Text.Length > 0 && tb_psw.Text.Length < 8)
+            {
+                MessageBox.Show("Mật khẩu phải có ít nhất 8 ký tự!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                tb_psw.Focus();
+                return;
+            }
+
+            MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
