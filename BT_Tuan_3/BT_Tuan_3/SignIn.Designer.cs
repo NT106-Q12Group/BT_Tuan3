@@ -92,7 +92,6 @@
             tb_psw.Name = "tb_psw";
             tb_psw.Size = new Size(212, 27);
             tb_psw.TabIndex = 5;
-            tb_psw.TextChanged += tb_psw_TextChanged;
             // 
             // SignIn
             // 

@@ -89,5 +89,10 @@ namespace BT_Tuan_3
         {
 
         }
+
+        private void tb_username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

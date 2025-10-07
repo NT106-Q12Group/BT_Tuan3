@@ -110,14 +110,21 @@ namespace BT_Tuan_3
             }
 
 
-            if(!string.IsNullOrEmpty(tb_psw.Text) && tb_psw.Text.Length > 0 && tb_psw.Text.Length < 8)
+            if (!string.IsNullOrEmpty(tb_psw.Text) && tb_psw.Text.Length > 0 && tb_psw.Text.Length < 8)
             {
                 MessageBox.Show("Mật khẩu phải có ít nhất 8 ký tự!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 tb_psw.Focus();
                 return;
             }
-
-            MessageBox.Show("Đăng nhập thành công!", "Thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (username == "adminuser" && password == "admin123")
+            {
+                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
+
     }
 }
