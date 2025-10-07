@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace BT_Tuan_3
 {
@@ -82,12 +83,19 @@ namespace BT_Tuan_3
 
         private void btn_signup_Click(object sender, EventArgs e)
         {
+            DateTime result;
+            var culture = new CultureInfo("en-GB");
 
         }
 
         private void tb_cf_psw_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void tb_age_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
