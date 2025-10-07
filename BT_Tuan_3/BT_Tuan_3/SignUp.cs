@@ -84,5 +84,10 @@ namespace BT_Tuan_3
         {
 
         }
+
+        private void tb_cf_psw_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

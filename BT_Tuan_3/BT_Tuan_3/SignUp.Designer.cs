@@ -113,6 +113,7 @@
             tb_cf_psw.Name = "tb_cf_psw";
             tb_cf_psw.Size = new Size(177, 27);
             tb_cf_psw.TabIndex = 7;
+            tb_cf_psw.TextChanged += tb_cf_psw_TextChanged;
             // 
             // tb_phone
             // 

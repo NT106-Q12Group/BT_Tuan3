@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\",
+  "WorkspaceRootPath": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|c:\\users\\nh\u00E2n\\desktop\\uit leraning\\t\u00E0i li\u1EC7u s\u1EB5n\\k\u00EC 3\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\l\u00FD thuy\u1EBFt\\b\u00E0i t\u1EADp tu\u1EA7n 3\\bt_tuan_3\\bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|d:\\github ltmcb\\bt_tuan3\\bt_tuan_3\\bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|c:\\users\\nh\u00E2n\\desktop\\uit leraning\\t\u00E0i li\u1EC7u s\u1EB5n\\k\u00EC 3\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\l\u00FD thuy\u1EBFt\\b\u00E0i t\u1EADp tu\u1EA7n 3\\bt_tuan_3\\bt_tuan_3\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|c:\\users\\nh\u00E2n\\desktop\\uit leraning\\t\u00E0i li\u1EC7u s\u1EB5n\\k\u00EC 3\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\l\u00FD thuy\u1EBFt\\b\u00E0i t\u1EADp tu\u1EA7n 3\\bt_tuan_3\\bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|c:\\users\\nh\u00E2n\\desktop\\uit leraning\\t\u00E0i li\u1EC7u s\u1EB5n\\k\u00EC 3\\l\u1EADp tr\u00ECnh m\u1EA1ng c\u0103n b\u1EA3n\\l\u00FD thuy\u1EBFt\\b\u00E0i t\u1EADp tu\u1EA7n 3\\bt_tuan_3\\bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|d:\\github ltmcb\\bt_tuan3\\bt_tuan_3\\bt_tuan_3\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|d:\\github ltmcb\\bt_tuan3\\bt_tuan_3\\bt_tuan_3\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|d:\\github ltmcb\\bt_tuan3\\bt_tuan_3\\bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7746FAB-0244-4BD9-999A-6F0DF3B6A6AC}|BT_Tuan_3\\BT_Tuan_3.csproj|solutionrelative:bt_tuan_3\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,11 +50,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "SignIn.Designer.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.Designer.cs",
+              "RelativeDocumentMoniker": "BT_Tuan_3\\SignIn.Designer.cs",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.Designer.cs*",
+              "RelativeToolTip": "BT_Tuan_3\\SignIn.Designer.cs*",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAWwEwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T08:12:16.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SignUp.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.Designer.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.Designer.cs",
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignUp.Designer.cs",
-              "ToolTip": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.Designer.cs",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.Designer.cs",
               "RelativeToolTip": "BT_Tuan_3\\SignUp.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -59,24 +76,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SignUp.cs",
-              "DocumentMoniker": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignUp.cs",
-              "ToolTip": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
               "RelativeToolTip": "BT_Tuan_3\\SignUp.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAArwBcAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T01:00:46.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SignUp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs",
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignUp.cs",
-              "ToolTip": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs [Design]",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignUp.cs [Design]",
               "RelativeToolTip": "BT_Tuan_3\\SignUp.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-07T01:00:14.321Z",
@@ -84,13 +101,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "SignIn.cs",
-              "DocumentMoniker": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignIn.cs",
-              "ToolTip": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
-              "RelativeToolTip": "BT_Tuan_3\\SignIn.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs*",
+              "RelativeToolTip": "BT_Tuan_3\\SignIn.cs*",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAnwFAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T15:58:43.202Z",
               "EditorCaption": ""
@@ -99,10 +116,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "SignIn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
+              "DocumentMoniker": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs",
               "RelativeDocumentMoniker": "BT_Tuan_3\\SignIn.cs",
-              "ToolTip": "C:\\Users\\Nh\u00E2n\\Desktop\\UIT Leraning\\T\u00E0i Li\u1EC7u S\u1EB5n\\K\u00EC 3\\L\u1EADp Tr\u00ECnh M\u1EA1ng C\u0103n B\u1EA3n\\L\u00FD thuy\u1EBFt\\B\u00E0i t\u1EADp tu\u1EA7n 3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs [Design]",
-              "RelativeToolTip": "BT_Tuan_3\\SignIn.cs [Design]",
+              "ToolTip": "D:\\github ltmcb\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\SignIn.cs [Design]*",
+              "RelativeToolTip": "BT_Tuan_3\\SignIn.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T15:57:37.968Z",
               "EditorCaption": " [Design]"
