@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj": {}
+    "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj": {}
   },
   "projects": {
-    "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj": {
+    "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
+        "projectUniqueName": "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
         "projectName": "BT_Tuan_3",
-        "projectPath": "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
+        "projectPath": "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\obj\\",
+        "outputPath": "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uME5iE39lWU=",
+  "dgSpecHash": "NwcQog0vm28=",
   "success": true,
-  "projectFilePath": "D:\\UIT_(BaiHoc-BaiTap)\\Year2_Se1\\Network_Programing\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
+  "projectFilePath": "D:\\UIT_(BaiHoc-BaiTap)\\Github\\BT_Tuan3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3\\BT_Tuan_3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite\\8.0.20\\microsoft.data.sqlite.8.0.20.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.20\\microsoft.data.sqlite.core.8.0.20.nupkg.sha512",

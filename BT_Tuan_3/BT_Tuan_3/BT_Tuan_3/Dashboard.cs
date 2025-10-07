@@ -5,7 +5,6 @@ using System.Windows.Forms;
 
 namespace BT_Tuan_3
 {
-    // Model user để mang dữ liệu
     public class User
     {
         public int Id { get; set; }
@@ -32,12 +31,10 @@ namespace BT_Tuan_3
 
         private void InitializeComponent()
         {
-            // Form
             this.Text = "Dashboard";
             this.StartPosition = FormStartPosition.CenterScreen;
             this.ClientSize = new Size(640, 360);
 
-            // Label thông tin
             lblInfo = new Label
             {
                 AutoSize = true,
@@ -47,7 +44,6 @@ namespace BT_Tuan_3
             };
             this.Controls.Add(lblInfo);
 
-            // Nút đăng xuất
             btnLogout = new Button
             {
                 Text = "Đăng xuất",

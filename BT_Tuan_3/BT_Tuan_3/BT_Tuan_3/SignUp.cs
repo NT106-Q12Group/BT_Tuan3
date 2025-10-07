@@ -37,11 +37,9 @@ namespace BT_Tuan_3
 
             InitGenderCombo();
 
-            // Cấm khoảng trắng trong mật khẩu nếu bạn muốn:
             tb_psw.KeyPress += BlockWhitespace_KeyPress;
             tb_cf_psw.KeyPress += BlockWhitespace_KeyPress;
 
-            // Kiểm tra khớp khi rời ô xác nhận
             tb_cf_psw.Leave += (s, e) =>
             {
                 if (tb_psw.Text != PH_PASSWORD && tb_cf_psw.Text != PH_CONFIRM)
@@ -69,7 +67,7 @@ namespace BT_Tuan_3
         private void InitGenderCombo()
         {
             cbb_gender.Items.Clear();
-            cbb_gender.Items.Add(PH_GENDER); // placeholder
+            cbb_gender.Items.Add(PH_GENDER);
             cbb_gender.Items.Add("Không tiết lộ");
             cbb_gender.Items.Add("Nam");
             cbb_gender.Items.Add("Nữ");
@@ -78,7 +76,6 @@ namespace BT_Tuan_3
 
             cbb_gender.SelectedIndexChanged += (s, e) =>
             {
-                // đổi màu chữ khi không còn placeholder
                 cbb_gender.ForeColor = (cbb_gender.SelectedIndex == 0) ? Color.Gray : Color.Black;
             };
         }
@@ -98,7 +95,6 @@ namespace BT_Tuan_3
             };
         }
 
-        // >>> DÙNG CHUNG CHO tb_psw và tb_cf_psw <<<
         private void SetPswPlaceholder(TextBox tb, string placeholder)
         {
             tb.Text = placeholder;
@@ -109,7 +105,7 @@ namespace BT_Tuan_3
             {
                 if (tb.Text == placeholder)
                 {
-                    tb.UseSystemPasswordChar = true;  // mask chính textbox này
+                    tb.UseSystemPasswordChar = true; 
                     tb.Text = "";
                     tb.ForeColor = Color.Black;
                 }
@@ -119,7 +115,7 @@ namespace BT_Tuan_3
             {
                 if (string.IsNullOrEmpty(tb.Text))
                 {
-                    tb.UseSystemPasswordChar = false; // bỏ mask nếu quay về placeholder
+                    tb.UseSystemPasswordChar = false;
                     tb.Text = placeholder;
                     tb.ForeColor = Color.Gray;
                 }
@@ -142,20 +138,17 @@ namespace BT_Tuan_3
 
             bool ok = true;
 
-            // Email
             if (email == PH_EMAIL || !email.Contains('@') || !email.Contains('.'))
             { error.SetError(tb_email, "Email không hợp lệ!"); ok = false; }
             else error.SetError(tb_email, "");
 
-            // Username
             if (username == PH_USERNAME || username.Length < 4 || username.Length > 20)
             { error.SetError(tb_username, "Tên đăng nhập phải 4–20 ký tự!"); ok = false; }
             else if (!tb_username.Text.All(char.IsLetterOrDigit))
             { error.SetError(tb_username, "Tên đăng nhập chỉ gồm chữ & số!"); ok = false; }
             else error.SetError(tb_username, "");
 
-            // Password
-            if (password == PH_PASSWORD) password = ""; // nếu vẫn placeholder thì coi như rỗng
+            if (password == PH_PASSWORD) password = "";
             if (confirm == PH_CONFIRM) confirm = "";
 
             bool hasUpper = false, hasLower = false, hasDigit = false, hasSpecial = false;
@@ -174,7 +167,6 @@ namespace BT_Tuan_3
             { error.SetError(tb_cf_psw, "Mật khẩu xác nhận không khớp!"); ok = false; }
             else error.SetError(tb_cf_psw, "");
 
-            // Gender
             if (cbb_gender.SelectedIndex <= 0)
             {
                 error.SetError(cbb_gender, "Vui lòng chọn giới tính!");
@@ -190,7 +182,6 @@ namespace BT_Tuan_3
 
                 using var conn = AppDb.GetConn();
 
-                // check trùng
                 using (var check = new SqliteCommand("SELECT 1 FROM Users WHERE Username=@u OR Email=@e;", conn))
                 {
                     check.Parameters.AddWithValue("@u", username);
@@ -233,7 +224,6 @@ namespace BT_Tuan_3
         }
     }
 
-    // Helper DB nội bộ
     public static class AppDb
     {
         static readonly string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "app.db");
@@ -247,7 +237,7 @@ namespace BT_Tuan_3
         public static void EnsureCreated()
         {
             using var c = GetConn();
-            // bảng có cột Gender
+
             string sql = @"CREATE TABLE IF NOT EXISTS Users(
                 Id INTEGER PRIMARY KEY AUTOINCREMENT,
                 Username     TEXT NOT NULL UNIQUE,
@@ -261,7 +251,6 @@ namespace BT_Tuan_3
             );";
             new SqliteCommand(sql, c).ExecuteNonQuery();
 
-            // Nếu DB cũ chưa có cột Gender → thêm (bỏ qua lỗi nếu đã tồn tại)
             try { new SqliteCommand("ALTER TABLE Users ADD COLUMN Gender TEXT;", c).ExecuteNonQuery(); }
             catch { /* đã có cột → bỏ qua */ }
         }

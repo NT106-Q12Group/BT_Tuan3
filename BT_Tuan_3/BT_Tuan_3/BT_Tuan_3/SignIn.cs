@@ -16,10 +16,8 @@ namespace BT_Tuan_3
         {
             InitializeComponent();
 
-            // ⚠️ RẤT QUAN TRỌNG: gắn event cho nút Đăng nhập
             this.btn_signin.Click += btn_signin_Click;
 
-            // Enter = đăng nhập
             this.AcceptButton = btn_signin;
 
             SetPlaceholder(tb_username, PH_USERNAME);
@@ -33,9 +31,6 @@ namespace BT_Tuan_3
             {
                 if (char.IsWhiteSpace(e.KeyChar)) { e.Handled = true; MessageBox.Show("Mật khẩu không có khoảng trắng!"); }
             };
-
-            // Link chuyển sang SignUp
-            //this.linklb_signup.LinkClicked += linklb_signup_LinkClicked;
         }
 
         private void SetPlaceholder(TextBox tb, string text)
@@ -80,7 +75,6 @@ namespace BT_Tuan_3
                 AppDb.EnsureCreated();
                 using var conn = AppDb.GetConn();
 
-                // tìm user không phân biệt hoa/thường
                 using var findUser = new SqliteCommand(@"
                     SELECT Id, Username, Email, Phone, Address, Birthdate, Gender, CreatedAt, PasswordHash
                     FROM Users
@@ -104,7 +98,6 @@ namespace BT_Tuan_3
                     return;
                 }
 
-                // OK → mở Dashboard
                 var user = new User
                 {
                     Id = r["Id"] is DBNull ? 0 : Convert.ToInt32(r["Id"]),
