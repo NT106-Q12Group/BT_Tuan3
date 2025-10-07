@@ -74,7 +74,6 @@
             tb_username.Name = "tb_username";
             tb_username.Size = new Size(212, 27);
             tb_username.TabIndex = 3;
-            tb_username.TextChanged += tb_username_TextChanged;
             // 
             // lb_signup
             // 
